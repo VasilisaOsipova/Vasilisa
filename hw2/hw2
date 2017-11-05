@@ -1,0 +1,11 @@
+a = input()
+l = len( a )
+n = l//2
+if ( l+2 )//2 - ( l+1 )//1 == 1:
+    k1 = a[0:n+1]
+    k2 = a[-1:n:-1]
+    print ( k1 + k2 )
+else:
+    k1 = a[0:n]
+    k2 = a[-1:n-1:-1]
+    print( k1 + k2 )
