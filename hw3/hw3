@@ -1,0 +1,7 @@
+a= 'abracadabra'
+l = len( a )
+a = a[::-1]
+for i in range (0, l):
+k = a[0:i+1]
+k = k[::-1]
+print( k )
