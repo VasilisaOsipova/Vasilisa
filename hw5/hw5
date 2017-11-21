@@ -1,0 +1,11 @@
+with open('text.txt', encoding='utf-8') as f: 
+    a = f.read() 
+for c in ['.',"'", '"', ':', '»', '«']: 
+    a = a.replace(c, "") 
+    new_a = a.split() 
+    x = 0 
+for word in new_a: 
+    print(word) 
+    if len(word) > 10: 
+        x +=1 
+print(x / len(new_a) * 100)
