@@ -6,6 +6,6 @@ with open("text.txt", "w", encoding="utf-8") as f:
     else:
         while w!="":
             if w.endswith("tur"):
-                f.write(a)
+                f.write(w)
                 f.write("\n")
             w=input()
