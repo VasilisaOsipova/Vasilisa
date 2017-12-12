@@ -8,4 +8,4 @@ with open("lingva.txt", "r", encoding = "utf-8") as f:
         if a in b:
             i+=1
         line = f.readline()
-    print("В этом файле", i,"статусов Critically endangered")
+    print i
